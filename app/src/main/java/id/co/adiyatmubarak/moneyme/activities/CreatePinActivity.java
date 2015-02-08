@@ -7,7 +7,6 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import id.co.adiyatmubarak.moneyme.R;
 import id.co.adiyatmubarak.moneyme.utilities.CommonHelper;

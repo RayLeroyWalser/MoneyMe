@@ -70,7 +70,9 @@ public class AuthActivity extends Activity implements View.OnClickListener {
                 } else {
                     // Check if pin valid
                     if (db.isAuthenticated(pin)) {
-                        Toast.makeText(this, "BENAR.", Toast.LENGTH_SHORT).show();
+                        finish();
+                        Intent intent = new Intent(this, MainActivity.class);
+                        startActivity(intent);
                     } else {
                         Toast.makeText(this, "PIN Anda Salah.", Toast.LENGTH_SHORT).show();
                     }
