@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="id.co.adiyatmubarak.moneyme.activities.AuthActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/label_title"
+        android:id="@+id/idTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="46dp"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/text_white" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword|number"
+        android:ems="10"
+        android:id="@+id/etPin"
+        android:layout_below="@+id/idTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textCursorDrawable="@null"
+        android:background="@drawable/field_pin"
+        android:maxLength="6"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:phoneNumber="true"
+        android:hint="@string/hint_pin"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_signin"
+        android:id="@+id/bt_signin"
+        android:layout_below="@+id/etPin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/button_signin"
+        android:textColor="@color/text_white"
+        android:textSize="20dp"
+        android:layout_margin="5dp" />
+
+</RelativeLayout>

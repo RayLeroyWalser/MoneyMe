@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Moneyme</string>
+    <string name="title_section1">Beranda</string>
+    <string name="title_section2">Keuangan</string>
+    <string name="title_section3">Pengaturan</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="label_title">MoneyMe</string>
+    <string name="button_signin">Sign In</string>
+    <string name="hint_pin">PIN</string>
+    <string name="create_pin">Buat Pin Baru</string>
+    <string name="confirm_pin">Ulangi Pin</string>
+    <string name="buat_pin">Buat</string>
+    <string name="create_pin_activity_label">Buat PIN Baru</string>
+
+</resources>

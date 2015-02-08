@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/etCreatePin"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:textCursorDrawable="@null"
+        android:background="@drawable/field_pin"
+        android:padding="10dp"
+        android:hint="@string/create_pin"
+        android:maxLength="6"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/etConfirmPin"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textCursorDrawable="@null"
+        android:background="@drawable/field_pin"
+        android:padding="10dp"
+        android:hint="@string/confirm_pin"
+        android:maxLength="6"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buat_pin"
+        android:id="@+id/btCreatePin"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_signin"
+        android:textColor="@color/text_white" />
+</LinearLayout>
